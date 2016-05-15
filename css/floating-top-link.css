@@ -1,0 +1,22 @@
+.pagetop a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #4d4d4d;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.pagetop a:hover {
+  background: #666;
+}
+.pagetop a:visited {
+  color: #fff;
+}
