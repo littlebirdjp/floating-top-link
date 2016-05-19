@@ -9,19 +9,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Add link to page top.
+A simple plugin adding a link button to the top of a page.
+The design of a link button is based on the Material Design guideline.
 
-[This Plugin published on GitHub.](https://github.com/TickleCode/wapuufall)
-
-== Screenshots ==
-
-* screenshot-1.png
+[This Plugin published on GitHub.](https://github.com/littlebirdjp/floating-top-link)
 
 == Installation ==
 
 1. Upload the entire `floating-top-link` folder to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-
 
 == Changelog ==
 
