@@ -1,5 +1,5 @@
 jQuery(function($){
-    var topBtn = $('#pageTop');
+    var topBtn = $('#js-FloatingTopLink');
     topBtn.hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
