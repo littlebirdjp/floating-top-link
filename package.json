@@ -1,0 +1,24 @@
+{
+  "name": "floating-top-link",
+  "version": "1.0.0",
+  "description": "A simple plugin adding a link button to the top of a page.",
+  "author": "Yusuke Takahashi <youthkee@gmail.com>",
+  "homepage": "http://littlebird.mobi",
+  "license": "GPL-2.0",
+  "main": "floating-top-link.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebirdjp/floating-top-link"
+  },
+  "bugs": {
+    "url": "https://github.com/littlebirdjp/floating-top-linkissues"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  }
+}
