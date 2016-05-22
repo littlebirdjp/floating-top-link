@@ -1,8 +1,8 @@
-=== Plugin Name ===
+=== Floating Top Link ===
 Contributors: Yusuke Takahashi
-Tags:
-Requires at least: 4.3
-Tested up to: 4.4
+Tags: navigation, button, top link, go-to-top, scroll, scroll to top, scroll top, Smooth Scroll, icon font, material design, ui, ux
+Requires at least: 4.4
+Tested up to: 4.5.2
 Stable tag: 1.0.0
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
