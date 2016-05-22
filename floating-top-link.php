@@ -14,7 +14,7 @@ Text Domain: floating-top-link
 
 add_filter( 'wp_footer' , 'floating_top_link_html_add' );
 function floating_top_link_html_add() {
-   echo '<div class="FloatingTopLink" id="js-FloatingTopLink"><a href="#page"><i class="fa fa-chevron-up"></i></a></div>';
+   echo '<div class="FloatingTopLink" id="js-FloatingTopLink"><a href="#page"><i class="FloatingTopLink__icon FloatingTopLink__icon-01"></i></a></div>';
 }
 
 function floating_top_link_css_add(){
