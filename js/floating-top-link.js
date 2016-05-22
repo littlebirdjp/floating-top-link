@@ -9,7 +9,7 @@ jQuery(function($){
         }
     });
     topBtn.on('click', function(){
-	    $('html,body').animate({ scrollTop: 0 },'fast','swing');
-	    return false;
+      $('html,body').animate({ scrollTop: 0 },'fast','swing');
+      return false;
     });
 });

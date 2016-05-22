@@ -19,8 +19,8 @@
 .FloatingTopLink a:hover,
 .FloatingTopLink a:focus,
 .FloatingTopLink a:active {
-	color: #fff;
-	background: #616161;
+  color: #fff;
+  background: #616161;
 }
 
 .FloatingTopLink a:visited {

@@ -14,11 +14,11 @@ Text Domain: floating-top-link
 
 add_filter( 'wp_footer' , 'floating_top_link_html_add' );
 function floating_top_link_html_add() {
-   echo '<div class="FloatingTopLink" id="js-FloatingTopLink"><a href="#page"><i class="FloatingTopLink__icon FloatingTopLink__icon-01"></i></a></div>';
+	echo '<div class="FloatingTopLink" id="js-FloatingTopLink"><a href="#page"><i class="FloatingTopLink__icon FloatingTopLink__icon-01"></i></a></div>';
 }
 
 function floating_top_link_css_add(){
 	wp_enqueue_style( 'floating-top-link.css',plugins_url('/css/floating-top-link.css',__FILE__), array(), '1.0.0', 'all' );
-  wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.0', 'all' );
+	wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.0', 'all' );
 }
 add_action('wp_enqueue_scripts','floating_top_link_css_add');
