@@ -1,0 +1,35 @@
+language: php
+
+notifications:
+  on_success: never
+  on_failure: change
+
+php:
+- 5.3
+- 5.6
+
+matrix:
+  include:
+  - php: 5.3
+    env: WP_VERSION=latest WP_MULTISITE=0 WP_PULUGIN_DEPLOY=1
+
+env:
+  matrix:
+  - WP_VERSION=latest WP_MULTISITE=0
+  - WP_VERSION=4.1 WP_MULTISITE=0
+  - WP_VERSION=4.0 WP_MULTISITE=0
+  - WP_VERSION=3.9 WP_MULTISITE=0
+  - WP_VERSION=3.8 WP_MULTISITE=0
+
+  global:
+  - SVN_REPO: ttps://plugins.svn.wordpress.org/floating-top-link/
+  - GH_REF: https://github.com/littlebirdjp/floating-top-link.git
+  - secure: lAfipiGBpr8kBKbEPycESgwHlj5YsSLnCm5tA7j4uy+8TkTjt1cFK3w8iQe36wqznYj11vNW2WfiGLkNpQQg1YMca9JGtw0tV6kSOY4esDnRDQjniUVZeil/bbMMqqxWPtpVpXP3adj5vAPsYItGuIY24IQUr2XGrbr7TkKHcVfEk2EaPjeY3juYfbtDWehKXsEDN2NgYbAv8U/6062+aIeJsR3RApo8eZfMcX1EwCAdn0tTtc/1hlobq8jWm2HD70D3duweIJmpeWGW+Ukl/1gAQJTsJGH5ZAl8uYQibL9Mc1nq9XYS9K1aswviqM78C8cFOArKinWni5XdZMwjEKb8iIPUJGrs36Gw62nGYaF1dV59ExBPTleyhR87WNxI56y/el2538hZnbC6UB25qzWu3HmyqSsf2fy0Mx2o0nrQvReIHEyh2LWuaMhc1ex28clrhEskShLH9Zf+mifntK95JTq8HGXg16Xek+ahuriYAk14ne/yTV5MP65WRRXq66I6GRrNHLOHqc9tzLaud1tqCz93W3fiB4l4yZy43mEuFMk/QPkkL8Fw4SShsCycWrT7CTas/B7AoVUDQazln8oWYIy17JsE5OpvTvntFFEo+vRY9Gplkbc2NfKFx4PvNZlQbDCeWsIOYSuAAWJgTEHf0V0dtnmJ4LP3b7GAPeM=
+
+script:
+    - ls -al floating-top-link.php
+    - ls -al css/floating-top-link.css
+    - ls -al js/floating-top-link.js
+    - ls -al readme.txt
+
+after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
