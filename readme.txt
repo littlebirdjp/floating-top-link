@@ -3,7 +3,7 @@ Contributors: youthkee
 Tags: navigation, button, top link, go-to-top, scroll, scroll to top, scroll top, Smooth Scroll, icon font, material design, ui, ux
 Requires at least: 4.4
 Tested up to: 4.5.2
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,5 +23,12 @@ The design of a link button is based on the Material Design guideline.
 
 == Changelog ==
 
-= 1.0 =
-* first release.
+= 1.0.2 =
+* Release a miner version.
+
+= 1.0.1 =
+* Delete an unnecessary file.
+* Fix author's username and descriptions.
+
+= 1.0.0 =
+* First release.
