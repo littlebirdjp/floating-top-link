@@ -1,6 +1,7 @@
 .DS_Store
 .git
 .gitignore
+.svnignore
 .travis.yml
 gulpfile.js
 package.json
