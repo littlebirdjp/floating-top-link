@@ -3,7 +3,7 @@
 Plugin Name: Floating Top Link
 Plugin URI:  https://github.com/littlebirdjp/floating-top-link
 Description: Add link to page top.
-Version:     1.0
+Version:     1.0.2
 Author:      Yusuke Takahashi
 Author URI:  http://littlebird.mobi
 License:     GNU General Public License v2 or later
@@ -18,7 +18,7 @@ function floating_top_link_html_add() {
 }
 
 function floating_top_link_css_add(){
-	wp_enqueue_style( 'floating-top-link.css',plugins_url('/css/floating-top-link.css',__FILE__), array(), '1.0.0', 'all' );
-	wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.0', 'all' );
+	wp_enqueue_style( 'floating-top-link.css',plugins_url('/css/floating-top-link.css',__FILE__), array(), '1.0.2', 'all' );
+	wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.2', 'all' );
 }
 add_action('wp_enqueue_scripts','floating_top_link_css_add');
