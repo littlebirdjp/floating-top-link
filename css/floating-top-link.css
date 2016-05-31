@@ -14,6 +14,7 @@
   color: #FFF;
   -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  z-index: 2147483647;
 }
 
 .FloatingTopLink a:hover,
