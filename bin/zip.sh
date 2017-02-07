@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION='1.0.3'
+VERSION='1.0.4'
 
 function build_floating-top-link() {
   mkdir floating-top-link
