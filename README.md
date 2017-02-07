@@ -1,5 +1,7 @@
 # Floating Top Link
 
+[![Build Status](https://travis-ci.org/littlebirdjp/floating-top-link.svg?branch=master)](https://travis-ci.org/littlebirdjp/floating-top-link)
+
 Contributors: youthkee  
 Tags: navigation, button, top link, go-to-top, scroll, scroll to top, scroll top, Smooth Scroll, icon font, material design, ui, ux  
 Requires at least: 4.4  
