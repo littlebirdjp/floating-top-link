@@ -3,7 +3,7 @@
 Plugin Name: Floating Top Link
 Plugin URI:  https://github.com/littlebirdjp/floating-top-link
 Description: Add link to page top.
-Version:     1.0.2
+Version:     1.0.3
 Author:      Yusuke Takahashi
 Author URI:  http://littlebird.mobi
 License:     GNU General Public License v2 or later
@@ -11,6 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Domain Path: /languages
 Text Domain: floating-top-link
 */
+
+add_action( 'init', 'floating_top_link_load_textdomain' );
+/**
+ * Load plugin textdomain.
+ *
+ * @since 1.0.0
+ */
+function floating_top_link_load_textdomain() {
+  load_plugin_textdomain( 'floating-top-link', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
 
 add_filter( 'wp_footer' , 'floating_top_link_html_add' );
 function floating_top_link_html_add() {

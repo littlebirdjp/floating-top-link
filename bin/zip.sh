@@ -1,12 +1,13 @@
 #!/bin/bash
 
-VERSION='1.0.0'
+VERSION='1.0.3'
 
 function build_floating-top-link() {
   mkdir floating-top-link
   cp -rpf css floating-top-link/
   cp -rpf fonts floating-top-link/
   cp -rpf js floating-top-link/
+  cp -rpf languages floating-top-link/
   cp *.php floating-top-link/
   cp *.txt floating-top-link/
   cd release
