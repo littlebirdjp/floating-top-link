@@ -24,7 +24,7 @@ The design of a link button is based on [Material design guidelines](https://mat
 
 ## Changelog
 
-### 1.0.3
+### 1.0.5
 
 - Add support for translation.
 
