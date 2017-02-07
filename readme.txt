@@ -12,7 +12,7 @@ Add a link button to the top of a page.
 == Description ==
 
 A simple plugin adding a link button to the top of a page.
-The design of a link button is based on the Material Design guideline.
+The design of a link button is based on [Material design guidelines](https://material.io/guidelines/).
 
 == Installation ==
 
