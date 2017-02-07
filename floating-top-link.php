@@ -3,7 +3,7 @@
 Plugin Name: Floating Top Link
 Plugin URI:  https://github.com/littlebirdjp/floating-top-link
 Description: Add link to page top.
-Version:     1.0.4
+Version:     1.0.5
 Author:      Yusuke Takahashi
 Author URI:  http://littlebird.mobi
 License:     GNU General Public License v2 or later
