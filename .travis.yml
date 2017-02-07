@@ -28,6 +28,6 @@ script:
     - ls -al floating-top-link.php
     - ls -al css/floating-top-link.css
     - ls -al js/floating-top-link.js
-    - ls -al readme.txt
+    - ls -al README.md
 
 after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
