@@ -28,7 +28,7 @@ function floating_top_link_html_add() {
 }
 
 function floating_top_link_css_add(){
-	wp_enqueue_style( 'floating-top-link.css',plugins_url('/css/floating-top-link.css',__FILE__), array(), '1.0.2', 'all' );
-	wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.2', 'all' );
+	wp_enqueue_style( 'floating-top-link.css',plugins_url('/css/floating-top-link.css',__FILE__), array(), '1.0.5', 'all' );
+	wp_enqueue_script('floating-top-link-js',plugins_url('/js/floating-top-link.js',__FILE__),array(), '1.0.5', 'all' );
 }
 add_action('wp_enqueue_scripts','floating_top_link_css_add');
