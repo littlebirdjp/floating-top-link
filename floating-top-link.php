@@ -13,11 +13,6 @@ Text Domain: floating-top-link
 */
 
 add_action( 'init', 'floating_top_link_load_textdomain' );
-/**
- * Load plugin textdomain.
- *
- * @since 1.0.0
- */
 function floating_top_link_load_textdomain() {
   load_plugin_textdomain( 'floating-top-link', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
